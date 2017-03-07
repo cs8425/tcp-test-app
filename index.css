@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    color: #303030;
+    margin: 10px;
+	height:calc(100vh - 20px);
+}
+
+.button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 14px;
+	margin: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+.status {
+/*	float: left;
+	min-height: 18px;
+	min-width: 18px;*/
+/*	width: calc(20vh - 22px);*/
+/*	height: calc(20vh - 22px);*/
+
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 14px;
+	margin: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+.success {
+	background-color: #4CAF50;
+}
+
+.info {
+	background-color: #2196F3;
+}
+
+.warning {
+	background-color: #ff9800;
+}
+
+.danger {
+	background-color: #f44336;
+}
+
+
+#connectUrl {
+	width: 70%;
+	font-size: 16px; /* Increase font-size */
+	padding: 12px 16px 12px 16px; /* Add some padding */
+	border: 1px solid #ddd; /* Add a grey border */
+}
+
+input[type="text"] {
+	font-size: 16px; /* Increase font-size */
+	padding: 12px 16px 12px 16px; /* Add some padding */
+	border: 1px solid #ddd; /* Add a grey border */
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+#connectErr {
+	display: none;
+}
+

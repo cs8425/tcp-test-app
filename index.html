@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="author" content="cs8425"/>
+	<meta http-equiv="Content-Security-Policy" content="default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'"> <!-- TODO: more specific -->
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link type="text/css" rel="stylesheet" href="./index.css" media="all" />
+<!--<script src="http://192.168.1.145:8080/target/target-script-min.js#anonymous"></script>-->
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="./jquery-3.1.1.slim.min.js"></script>
+	<script type="text/javascript" src="./index.js"></script>
+	<title></title>
+</head>
+<body>
+<input type="text" id="ip" placeholder="IP for Connect..." value="" />
+<input type="text" id="port" placeholder="Port for Connect..." value="2323" />
+<button id="connectBtn" class="button">Connect</button>
+<div id="connectErr" class="alert">Connect Error!!</div>
+
+<hr />
+
+<button class="status" id="RX">RX: 0</button>
+<button class="status" id="TX">TX: 0</button>
+
+</body>
+</html>
+
